@@ -1,0 +1,28 @@
+{
+  "name": "rainapi",
+  "version": "1.0.0",
+  "description": "Rain API provides a service offering data and means for the Rain application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gouyq/RainAPI.git"
+  },
+  "author": "Gouy Quentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gouyq/RainAPI/issues"
+  },
+  "homepage": "https://github.com/Gouyq/RainAPI#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jest": "^27.0.5",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
+}
