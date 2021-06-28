@@ -6,4 +6,4 @@ const app = express.Router();
 app.post('/login', loginController.login);
 app.get('/logout', loginController.logout);
 
-export = app 
+export = app
