@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run test",
     "start": "./node_modules/.bin/tsc & nodemon dist/app.js",
+    "run-watch": "tsc -w & nodemon -q -w dist dist/main.js",
     "build": "webpack"
   },
   "repository": {
