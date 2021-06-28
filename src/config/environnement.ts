@@ -4,5 +4,7 @@ export const environnement = {
     // Database config
     DB_HOST: 'localhost',
     DB_PORT: 27017,
-    DB_DATABASE: 'Rain'
+    DB_DATABASE: 'rain',
+
+    SALTED: 10
 }
