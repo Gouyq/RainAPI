@@ -2,10 +2,11 @@
   "name": "rainapi",
   "version": "1.0.0",
   "description": "Rain API provides a service offering data and means for the Rain application",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
     "test": "npm run test",
-    "start": "node ./src/index.js"
+    "start": "./node_modules/.bin/tsc & nodemon dist/app.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,10 @@
     "jest": "^27.0.5",
     "nodemon": "^2.0.7",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.9.10"
   }
 }
